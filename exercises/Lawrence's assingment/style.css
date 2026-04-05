@@ -1,0 +1,176 @@
+:root {
+    --primary: #3f7cac;
+    --secondary: #1ccad8;
+    --ink: #f8f4f9;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.all {
+    margin: 8em ;
+    background-color: var(--ink);
+    
+
+}
+
+.container1 {
+    display: flex;
+    background-color: var(--ink);
+    padding: 3rem;
+    margin: 0 4rem;
+}
+
+
+.contacts {
+    color: var(--primary);
+}
+
+.card {
+    display: grid;
+    background-color: var(--ink);
+    margin: 0 4rem;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card-left div {
+    margin-bottom: 1rem;
+}
+
+.card-content {
+    margin-bottom: 5rem;
+}
+
+.container4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    font-size: 0.8rem;
+    margin: 0.2rem 0;
+}
+
+h2,
+h3 {
+    margin: 0;
+}
+
+.contact-info {
+    font-weight: 900;
+}
+
+.card-right {
+    background-color: var(--secondary);
+    padding: .5rem 1.3rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+}
+
+.carding {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.form-group {
+    width: 100%;
+
+}
+
+textarea {
+    min-height: 100px;
+}
+
+input,
+textarea {
+    opacity: 0.8;
+    padding: .5rem;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 1rem;
+    width: 100%;
+
+}
+
+button {
+    background-color: var(--primary);
+    color: var(--ink);
+    padding: 0.5rem 4rem;
+    /* padding-right: 4rem;
+    padding-left: 4rem; */
+    border: none;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+.form-btn {
+    display: inline-block;
+
+}
+
+.bottom-cards {
+    display: flex;
+    margin: 3rem 2rem;
+    gap: .5rem;
+    align-items: center;
+    justify-content: center
+}
+
+.bottom-card-left {
+    background-color: var(--primary);
+    color: var(--ink);
+    border: none;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.bottom-text {
+    font-size: 12px;
+}
+
+.bottom-btn {
+    background-color: var(--ink);
+    color: var(--primary);
+}
+
+.bottom-card-right {
+    /* display: flex; */
+    background-color: var(--primary);
+    color: var(--ink);
+    padding: 2rem;
+    border: none;
+    border-radius: 1rem;
+    max-width: 670px;
+}
+
+.last-card {
+    display: flex;
+    margin-bottom: 0;
+    gap: 4rem;
+
+ }
+
+.last-card-header {
+    width: 100%;
+}
+
+.last-card-header {
+    margin-bottom: 1rem;
+}
+
+.footer-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+.last-card-text {
+    width: 50%;
+    margin-top: 0;
+}
