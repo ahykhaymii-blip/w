@@ -1,0 +1,136 @@
+:root {
+    --primary: #EEF1EF;
+    --secondary: #B9272C;
+    --ink: #020100;
+    --floor: #423d3e60;
+    --fb: #4059AD;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.all {
+    background-color: var(--primary);
+    margin: 5rem;
+    padding: 5rem;
+}
+
+body {
+    background-color: var(--floor);
+    /* margin: 20rem; */
+}
+
+/* This header also includes steps on how to center a div */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5 rem 2rem;
+}
+
+.pinterest-logo {
+    background-color: #f0f0f0;
+    color: #BD081C;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    padding: 0;
+    width: 10%;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.buddy-header {
+     margin-top: .3rem;
+}
+
+.welcome-header {
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    margin: 6rem;
+}
+
+input {
+    background-color: var(--floor);
+    border: none;
+    padding: .7rem;
+    margin-bottom: 1rem;
+    border-radius: .4rem;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: .5rem;
+    background-color: var(--secondary);
+    border: none;
+    border-radius: .4rem;
+    color: var(--primary);
+
+}
+
+.separator-text {
+    text-align: center;
+    font-weight: 500;
+    margin-top: 3rem;
+}
+
+.bottom-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+    width: 100%;
+}
+
+.facebook-logo {
+    background-color: var(--primary);
+    color: var(--fb);
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    padding: 0;
+    width: 60px;
+    align-items: center;
+}
+
+.google-logo {
+    background-color: var(--primary);
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    padding: 0;
+    width: 10%;
+}
+
+.footer-text {
+    text-align: center;
+    margin: 3rem 1rem;
+}
+
+.link-text {
+    color: var(--ink);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.last-text {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+@media (max-width: 412) {
+     
+}
