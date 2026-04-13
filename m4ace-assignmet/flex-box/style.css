@@ -1,0 +1,86 @@
+:root {
+    --background: #EFF2F1;
+    --primary: #010914;
+    --secondary: #2A75CB;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--background);
+}
+
+nav {
+    background-color: var(--primary);
+    color: var(--background);
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.nav-left {
+    font-weight: 700px;
+    font-size: 40px;
+}
+
+.my-name {
+    font-size: 20px;
+    padding-top: 1rem;
+}
+
+.nav-right {
+    display: flex;
+    gap: 3rem;
+}
+
+section {
+    display: flex;
+    margin: 2.5rem;
+    justify-content: space-between;
+}
+
+.body-text {
+    font-size: 150px;
+    font-weight: 900;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary);
+    color: var(--background);
+    border-radius: 2rem;
+    padding: 2rem;
+    width: 50%;
+    margin-top: 3rem;
+}
+
+.form-text {
+    margin-bottom: 2rem;
+    font-size: 40px;
+    text-align: center;
+}
+
+input {
+    margin-bottom: 2rem;
+    padding: .7rem;
+    border-radius: 1rem;
+}
+
+
+button {
+    color: var(--background);
+    background-color: var(--secondary);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
