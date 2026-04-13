@@ -163,6 +163,10 @@ button {
         width: 100%;
     }
 
+    .bottom-logo {
+        gap: 5rem;
+    } 
+    
     .footer-text {
         margin-top: 1rem;
         margin-bottom: 2rem;
