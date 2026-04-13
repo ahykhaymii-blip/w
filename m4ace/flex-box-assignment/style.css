@@ -73,6 +73,7 @@ form {
 input {
     margin-bottom: 2rem;
     padding: .7rem;
+    border: none;
     border-radius: 1rem;
 }
 
@@ -82,11 +83,12 @@ button {
     background-color: var(--secondary);
     padding: 1rem;
     border-radius: 1rem;
+    border: none;
     margin-top: 2rem;
 }
 
 @media screen and (max-width: 768px) {
-    
+
     nav {
         flex-direction: column;
         align-items: center;
@@ -101,7 +103,7 @@ button {
 
 
     .body-text {
-        font-size: 3.5rem; 
+        font-size: 3.5rem;
         line-height: 1.1;
         text-align: center;
     }
@@ -122,4 +124,3 @@ button {
         font-size: 1.5rem;
     }
 }
-
