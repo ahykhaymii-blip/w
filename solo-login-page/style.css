@@ -134,20 +134,23 @@ button {
 @media (max-width: 412px) {
 
     body {
-        padding: 1rem;
-    }
-
-    .all {
+        padding: 0;
         margin: 0;
     }
 
+    .all {
+        margin: 1rem;
+        padding: 2rem;
+    }
+
     .pinterest-logo {
-        width: 40%;
+        width: 30%;
     }
 
     .welcome-header {
-        font-size: 22px;
+        font-size: 20px;
         width: 100%;
+        text-align: center;
     }
 
     form {
@@ -162,5 +165,6 @@ button {
 
     .footer-text {
         margin-top: 1rem;
+        margin-bottom: 2rem;
     }
 }
